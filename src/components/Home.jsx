@@ -9,7 +9,7 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(()=>{
-    axios.get('https://mpserver-contact.onrender.com/create/'+id)
+    axios.get('https://mpserver-contact.onrender.com/create/')
     .then(res => setData(res.data))
     .catch(err => console.log(err));
   },[])
