@@ -31,7 +31,7 @@ const handleSubmit = (event)=>{
   return (
     <>
     <div className='d-flex w-100 vh-100 justify-content-center align-items-center ' style={{background: "#124E66"}}>
-      <div className='w-50 border bg-white shadow px-5 pt-3 pb-5 rounded'>
+      <div className=' border bg-white shadow px-5 pt-3 pb-5 rounded'>
         <h4 className='text-secondary d-flex justify-content-center align-items-center h4'>Add New Contact</h4>
         <form action="" onSubmit={handleSubmit}>
           <div className='mb-2'>
