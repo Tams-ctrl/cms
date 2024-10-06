@@ -30,7 +30,7 @@ function View() {
           </div>
           <div className='mb-3 mt-4 d-flex justify-content-between'>
             <Link to={`/update/${id}`} className='btn btn-success'>Edit</Link>
-            <Link to="/" className='btn btn-primary ' >Back</Link>
+            <Link to="/home" className='btn btn-primary ' >Back</Link>
           </div>
           
           
