@@ -57,7 +57,7 @@ const navigate = useNavigate();
 
           </div>
           <div className='mb-3 mt-4 d-flex justify-content-between'>
-            <Link to="/" className='btn btn-primary ' >Back</Link>
+            <Link to="/home" className='btn btn-primary ' >Back</Link>
             <button className='btn btn-success ms-5 '>Submit</button>
           </div>
           
