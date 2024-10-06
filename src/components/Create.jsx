@@ -20,6 +20,7 @@ const handleSubmit = (event)=>{
     .then(res => {
     console.log(res);
     navigate('/')
+    alert("Submitted")
     
   })
   .catch(err => console.log(err));

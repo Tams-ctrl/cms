@@ -12,7 +12,7 @@ function Home() {
     axios.get('https://mpserver-contact.onrender.com/create/')
     .then(res => setData(res.data))
     .catch(err => console.log(err));
-  },[])
+  },[])  
 
   const handleDelete=(id)=>{
     const confirm = window.confirm("would you like to Delete?");
